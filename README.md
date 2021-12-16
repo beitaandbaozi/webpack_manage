@@ -39,5 +39,10 @@ b.小于8KB转base64字符串进js里, 大于8KB输出文件
                 filename: 'font/[name].[hash:6][ext]'// [ext]会替换成.eot/.woff
             }
     },
-
  -->
+
+ ## 09.webpack集成babel
+ ### 如何做兼容低版本浏览器的版本？
+a.babel: 一个javascript编译器, 把高版本js语法降级处理输出兼容的低版本语法
+b.babel-loader: 可以让webpack转译打包的js代码
+
