@@ -31,3 +31,13 @@ a.配置 less-loader 和 less
 a.webpack5，在rules里，针对图片文件设置type:asset
 b.小于8KB转base64字符串进js里, 大于8KB输出文件
 
+## 08.webpack处理字体图标
+<!--
+{
+        test: /\.(eot|svg|ttf|woff|woff2)$/,
+        type: 'asset/resource',// 所有的字体图标文件, 都输出到dist下            generator: { // 生成文件名字 - 定义规则
+                filename: 'font/[name].[hash:6][ext]'// [ext]会替换成.eot/.woff
+            }
+    },
+
+ -->
