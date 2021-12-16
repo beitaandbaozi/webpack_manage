@@ -59,5 +59,9 @@ module.exports = {
         }
       }
     }]
+  },
+  // 更改端口
+  devServer: {
+    port: 3000
   }
 };
