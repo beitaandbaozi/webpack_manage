@@ -16,3 +16,13 @@ plugins: [new HtmlWebpackPlugin({ // plugins插件配置
         template: './public/index.html' // 告诉webpack使用插件时, 以我们自己的html文件作为模板去生成dist/html文件
     })],
  -->
+## 04.webpack配置CSS文件
+a.配置 css-loader 和 style-loader
+01. css-loader会将webpack解析css文件-把css代码一起打包进js中
+02. style-loader会把css代码插入到head下style标签内
+b.css代码打包到js文件中
+
+## 05.webpack配置less文件
+a.配置 less-loader 和 less 
+01. less-loader识别less文件
+02. less 将less编译为css
